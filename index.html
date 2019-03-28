@@ -1,0 +1,355 @@
+<html>
+  <style type="text/css">
+    body {
+      color: white;
+      margin-left: 25%;
+      margin-right: 25%;
+      font-size: 16px;
+      box-sizing: content-box;
+      font-family: Arial, Helvetica, sans-serif
+    }
+    h1 {
+      font-size: 35px;
+      margin-bottom: 10px
+    }
+   
+    button{
+      width: 110px;
+      border-radius:25px;
+      height: 46px;
+      margin-top: 8px;
+      border: none;
+      background-color: white;
+      font-size: 16px
+    }
+    /* .btndown{
+      margin-bottom: 0px
+    } */
+    .divContent {
+      background-size: cover;
+      height: 65vh;
+      display: block;
+      box-sizing: content-box;
+      padding-top: 5%;
+    }
+    .divContent2{
+      background-size: cover;
+      height: 70vh;
+      display: block;
+      box-sizing: content-box;
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 160%;
+      text-align: justify
+    }
+    .happyBirthday {
+      background-color: #5F67D2;
+      background-image: linear-gradient(to top right, #5F67D2, #AE6AB5); 
+      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-bottom: 50px
+      }
+    .welcome {
+      background-color: #3AB9B2;
+      background-image: linear-gradient(to top right,#3AB9B2, #78FFD6); 
+
+      padding-left: 0%;
+      padding-right: 5%;
+      text-align: left;
+      display: flex;
+      margin-bottom: 50px
+    }
+    .imgCod{
+      width: 100%;
+      background-image: url('./image/cod2.jpg');
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center
+    }
+    .imgWelcome{
+      width: 100%;
+      background-image: url('./image/tablet.jpg');
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center
+    }
+    .imgAlert{
+      width: 100%;
+      background-image: url('./image/laptop1_1024.jpg');
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center
+    }
+    .download {
+      background-color: #74C54F;
+      background-image: linear-gradient(to top right,#74C54F, #CEE05A); 
+
+      text-align: left;
+      padding-left: 5%;
+      padding-right: 0%;
+      display: flex;
+      margin-bottom: 50px
+    }
+    .alert {
+      background-color: #EE9747;
+      /* margin-bottom: 50px; */
+      display: flex;
+      height: 70vh;
+
+    }
+    .infoMessage {
+      text-align: center;
+      margin-bottom: 50px
+      }
+    .icon {
+      width: 75px;
+      height: 75px;
+      border: 3px solid white ;
+      border-radius: 50px;
+    }
+    .iconPerson{
+      width: 75px;
+      height: 75px;
+      border-radius: 50px;
+      background-color: white;
+    }
+    .person{
+      display: inline-block;
+      width: 20%;
+      margin-top: 12px;
+    }
+    .smallText{
+      text-align: center
+
+    }
+
+    .infoTitle{
+      background-color: #48AFF1;
+      background-image: linear-gradient(to top right, #48AFF1, #56CCF2); 
+      padding-left: 10%;
+      padding-right: 10%; 
+      padding-top: 8%;
+      padding-bottom: 5%
+    }
+    .infoPerson{
+      background-color: #40A1EE;
+      background-image: linear-gradient(to top right, #40A1EE, #55CBEF); 
+      margin-top: 3px;
+      padding-bottom: 5%;
+    }
+    .titleAlert{
+      text-align: left;
+      padding-top: 5%;
+      padding-left: 5%;
+    }
+    .alertDescrib{
+      background-size: cover;
+      /* height: 60vh; */
+      display: block;
+      /* box-sizing: content-box; */
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      /* width: 100%; */
+      text-align: justify
+    }
+    @media only screen and (max-width: 900px) {
+      body{
+        /* margin-left: 25%;
+        margin-right: 25%; */
+        font-size: 16px
+      }
+      h1 {
+        font-size: 25px;
+      }
+      .person{
+      display: inline-block;
+      width: 40%
+    }
+    .divContent2{
+      height: 80vh;
+    }
+    .imgAlert{
+      display: none
+    }
+    .alert{
+      display: block
+    }
+    .titleAlert{
+      text-align: center
+    }
+    .alertDescrib{
+      /* padding-left: 5%; */
+      /* padding-right: 5%; */
+      text-align: center
+
+    }
+    
+
+    }
+    @media only screen and (max-width: 520px) {
+      body{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 14px
+      }
+      h1 {
+        font-size: 20px;
+      }
+      p{
+        text-align: justify
+      }
+      .icon{
+        width: 50px;
+        height: 50px;
+      }
+      .person{
+      display: inline-block;
+      width: 80%
+    }
+    .imgCod{
+      display: none
+    }
+    .imgWelcome{
+      display: none
+    }
+    .divContent2{
+      text-align: justify
+    }
+    .welcome{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .download{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+ 
+    }
+  </style>
+  <body>
+    <div class="happyBirthday">
+      <div class="divContent">
+        <img
+          src="./image/surprise-gift-christmas-icon_icon-icons.com_48865.png"
+          alt=""
+          class="icon"
+        />
+        <h1>HAPPY BIRTHDAY</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          esse doloremque, quo consequatur voluptatibus officia animi, delectus
+          earum facere dignissimos iure quam, quasi veritatis cumque autem
+          expedita aspernatur dolorem eos?
+        </p>
+        <button>Click Me</button>
+      </div>
+    </div>
+    <div class="welcome">
+       <div class="imgWelcome">
+        
+      </div>
+      <div class="divContent2">
+        <img src="./image/verificado.png" class="icon"alt="" />
+        <h1>WELCOME</h1>
+        <P
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+          mollitia suscipit laudantium quae provident corrupti aspernatur quia.
+          Sit nesciunt eos accusamus cupiditate! Nobis id magnam voluptas
+          temporibus nemo quas ea.</P>
+        <button>Click Me</button>
+      </div>
+     
+    </div>
+    <div class="download">
+      <div class="divContent2">
+        <img src="./image/flecha-hacia-abajo.png" class="icon" alt="" />
+        <h1>DOWNLOAD</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          deleniti omnis temporibus maxime velit mollitia sequi neque quis
+          perferendis nobis quod eos. Itaque deserunt rem mollitia odio id
+          aperiam et.</P>
+        <button class="btnDown">Click Me</button>
+        <p>Share <img src="./image/linkedin.png" width="27px" alt=""> <img src="./image/gmail.png" width="27px" alt=""> 
+          <img src="./image/twitter.png" width="27px" alt=""> <img src="./image/face.png" width="27px" alt=""></p>
+      </div>
+      <div class="imgCod">
+        
+      </div>
+    </div>
+    <div class="infoMessage">
+      <div class="infoTitle">
+        <img src="./image/info.png" class="icon" alt="" />
+        <h1>INFO MESSAGE</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          dolorum in? Vel vero, labore obcaecati optio atque facere dicta
+          adipisci facilis voluptates nihil voluptatum velit nobis repudiandae
+          dolore eligendi sint.
+        </p>
+        <button>Click Me</button>
+      </div>
+      <div class="infoPerson">
+        <div class="person">
+          <img src="./image/1455555010_users-8_icon-icons.com_53272.png" class="iconPerson" alt="">
+          <div class="textPerson">
+            <p>
+                <h4>Joe doe</h4>
+                <h5>Account Executive</h5>
+            </p>
+            <img src="./image/face-black.png" width="26px" alt="">
+          <img src="./image/twitter-black.png" width="26px" alt="">
+          <img src="./image/gmail-black.png" width="26px" alt="">
+          </div>
+        </div>
+        <div class="person">
+          <img src="./image/1455555007_users-16_icon-icons.com_53274.png" class="iconPerson" alt="">
+          <div class="textPerson">
+            <p><h4>Julia SMITH</h4></p>
+            <p><h5>Designer </h5></p>
+            <img src="./image/face-black.png" width="26px" alt="">
+          <img src="./image/twitter-black.png" width="26px" alt="">
+          <img src="./image/gmail-black.png" width="26px" alt="">
+          </div>
+        </div>
+        <div class="person">
+          <img src="./image/1455555010_users-8_icon-icons.com_53272.png" class="iconPerson" alt="">
+          <div class="textPerson">
+           <p> <h4>Joe doe</h4></p>
+           <p><h5>Account Executive</h5></p>
+          <img src="./image/face-black.png" width="26px" alt="">
+          <img src="./image/twitter-black.png" width="26px" alt="">
+          <img src="./image/gmail-black.png" width="26px" alt="">
+          </div>
+        </div>
+        <div class="person">
+          <img src="./image/1455555007_users-16_icon-icons.com_53274.png" class="iconPerson" alt="">
+          <div class="textPerson">
+            <p><h4>Julia SMITH</h4></p>
+         <p><h5> Designer </h5></p>
+          <img src="./image/face-black.png" width="26px" alt="">
+          <img src="./image/twitter-black.png" width="26px" alt="">
+          <img src="./image/gmail-black.png" width="26px" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert">
+      <div class="titleAlert">
+        <img src="./image/exclamacion.png" class="icon" alt="" />
+        <h1>ALERT MESSAGE</h1>
+        <button>Click Me</button>
+      </div>
+      <div class="alertDescrib">
+        <h2>29$</h2>
+        <h4>PRO</h4>
+        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam qui doloribus porro nesciunt!
+           Aut cumque ipsam velit magnam illum nemao mollitia, odio omnis et earum sed dolore fugit ratione odit.</P>
+      </div>
+      <div class="imgAlert">
+      </div>
+    </div>
+  </body>
+</html>
